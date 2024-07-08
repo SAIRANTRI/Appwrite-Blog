@@ -26,13 +26,13 @@ function Header() {
               <LogoIcon width='50px' />
             </Link>
           </div>
-          <ul className='flex space-x-4 '>
+          <ul className='flex space-x-4 text-sm'>
             {navItems.map(item => (
               item.active && (
                 <li key={item.name}>
                   <button 
                     onClick={() => navigate(item.slug)}
-                    className='p-4 button relative border border-blue-500 rounded-xl inline-flex items-center text-lg justify-center h-11 transition-colors hover:text-color-1
+                    className='p-4 button relative border border-blue-500 rounded-xl inline-flex items-center text-sm justify-center h-11 transition-colors hover:text-color-1
     px || "px-7"
   } {white ? "text-n-8" : "text-n-1"'
                   >

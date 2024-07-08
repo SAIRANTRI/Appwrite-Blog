@@ -23,10 +23,10 @@ function App() {
   }, [])
   
   return !loading ? (
-    <div className='min-h-screen flex flex-wrap content-between bg-gray-400'>
-      <div className='w-full block'>
+    <div className='pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden'>
+      <div className=''>
         <Header />
-        <main>
+        <main className='xl: padding-1 wide:padding-r padding-b min-h-screen'>
         <Outlet />
         </main>
         <Footer />
